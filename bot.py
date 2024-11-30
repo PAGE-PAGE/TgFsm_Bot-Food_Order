@@ -4,7 +4,7 @@ from Fsm_bones import fsm_stating
 
 
 async def main():
-    bot = Bot(token="7170960627:AAH-5Qd7FGMZwYHpFUtaRzB9SfU2PLuZqbg")
+    bot = Bot(token="")
     dp = Dispatcher()
 
     dp.include_router(fsm_stating.router)
