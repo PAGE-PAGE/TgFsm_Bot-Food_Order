@@ -1,10 +1,13 @@
 import asyncio
+import os
+from dotenv import load_dotenv
 from aiogram import Bot, Dispatcher
 from Fsm_bones import fsm_stating
 
 
 async def main():
-    bot = Bot(token="")
+    load_dotenv()
+    bot = Bot(token=os.getenv("TG_KEY"))
     dp = Dispatcher()
 
     dp.include_router(fsm_stating.router)
