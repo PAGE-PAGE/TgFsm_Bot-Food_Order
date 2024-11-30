@@ -3,6 +3,7 @@ from aiogram import Bot, Dispatcher
 from Fsm_bones import fsm_stating
 
 
+
 async def main():
     bot = Bot(token="")
     dp = Dispatcher()
