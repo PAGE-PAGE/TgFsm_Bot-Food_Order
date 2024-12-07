@@ -6,4 +6,4 @@ ___
  - [x] Choose size
  - [x] Choose location
 
-- Start with /Food - 
+- Start with /Food 
