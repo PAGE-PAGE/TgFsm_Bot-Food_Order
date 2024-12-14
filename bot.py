@@ -3,6 +3,7 @@ import os
 from dotenv import load_dotenv
 from aiogram import Bot, Dispatcher
 from Fsm_bones import fsm_stating
+import bot_test
 
 
 async def main():
